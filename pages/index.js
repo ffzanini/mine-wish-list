@@ -1,8 +1,9 @@
+import './style.css';
 
 function Home() {
   return (
     <main>
-    <div>Lista de desejos para a vida</div>
+    <div className="container">Lista de desejos para a vida</div>
     <ul>
       <li>Viajar sozinho e conhecer paises como: Holanda, Canadá, Nova Zelândia, Marrocos, Itália, França, Irlanda, Alemanha, Noruega, China e Japão</li>
       <li>Saltar de paraquedas</li>
