@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 function Home() {
   return (
     <>
@@ -21,6 +23,12 @@ function Home() {
           <li style={{paddingBottom: 1 + 'rem'}}>Pegar pódio em um campeonato Sul Americano</li>
         </ul>
       </div>
+
+      <footer style={{fontSize: 2 + 'rem', display: 'flex', justifyContent: 'center', textAlign: 'center', background: '#7F638F'}}>
+      <Link href="/about">
+        <a style={{textDecoration: 0, color: '#000'}}>Sobre a lista</a>
+      </Link>
+      </footer>
     </body>
     </>
   );
