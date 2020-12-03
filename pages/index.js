@@ -25,9 +25,21 @@ function Home() {
       </div>
 
       <footer style={{fontSize: 2 + 'rem', display: 'flex', justifyContent: 'center', textAlign: 'center', background: '#7F638F'}}>
-      <Link href="/about">
-        <a style={{textDecoration: 0, color: '#000'}}>Sobre a lista</a>
-      </Link>
+      <ul style={{listStyle: 'none'}}>
+        <li>
+          <Link href="/about">
+          <a style={{textDecoration: 0, color: '#000'}}>Sobre a lista</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/tempo">
+          <a style={{textDecoration: 0, color: '#000'}}>Teste do tempo do servidor</a>
+          </Link>
+        </li>
+      </ul>
+
+      
+      
       </footer>
     </body>
     </>

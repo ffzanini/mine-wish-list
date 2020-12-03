@@ -1,4 +1,4 @@
-function Time(props) {
+function Tempo(props) {
   const dynamicDate = new Date();
   const dynamicDateString = dynamicDate.toGMTString();
 
@@ -21,4 +21,4 @@ export function getStaticProps() {
     revalidate: 1
   }
 }
-export default Time;
+export default Tempo;
